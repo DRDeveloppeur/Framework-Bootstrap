@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/framework.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="JavaScript/framework.js"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
+    <title>Bootstrap 2.0</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#">Navbar</a>
+      <button class="navbar-toggler" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar navbar-content">
+        <ul class="navbar">
+          <li class="nav-item active">
+            <a href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="dropdown-toggle"  id="drp" href="#" role="button">
+              Dropdown
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+          <form class="form-inline">
+            <div class="row">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+          </div>
+          </form>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div style="background:red;" class="col-lg-6">
+          <p>Col 6 dans row</p>
+        </div>
+        <div style="background:blue;" class="col-lg-6">
+          <p>Col 6 dans row</p>
+        </div>
+        <div style="background:blue;" class="col-lg-1">
+          <p>Col 1 dans row</p>
+        </div>
+      </div>
+      <div style="background:red;" class="col-lg-1">
+        <p>Col 1</p>
+      </div>
+      <div style="background:blue;" class="col-lg-2">
+        <p>Col 2</p>
+      </div>
+      <div style="background:red;" class="col-lg-3">
+        <p>Col 3</p>
+      </div>
+      <div style="background:blue;" class="col-lg-4">
+        <p>Col 4</p>
+      </div>
+      <div style="background:red;" class="col-lg-5">
+        <p>Col 5</p>
+      </div>
+      <div style="background:blue;" class="col-lg-6">
+        <p>Col 6</p>
+      </div>
+      <div style="background:red;" class="col-lg-7">
+        <p>Col 7</p>
+      </div>
+      <div style="background:blue;" class="col-lg-8">
+        <p>Col 8</p>
+      </div>
+      <div style="background:red;" class="col-lg-9">
+        <p>Col 9</p>
+      </div>
+      <div style="background:blue;" class="col-lg-10">
+        <p>Col 10</p>
+      </div>
+      <div style="background:red;" class="col-lg-11">
+        <p>Col 11</p>
+      </div>
+      <div style="background:blue;" class="col-lg-12">
+        <p>Col 12</p>
+      </div>
+      <div class="boutton">
+        <button class="btn btn-primary btn-lg" type="button" name="button">Large</button>
+        <button class="btn btn-secondary" type="button" name="button">Bouton</button>
+        <button class="btn btn-success btn-sm" type="button" name="button">Small</button>
+        <button class="btn btn-danger" type="button" name="button">Bouton</button>
+        <button class="btn btn-danger active" type="button" name="button">Active</button>
+        <button class="btn btn-warning" disabled type="button" name="button">Disabled</button>
+
+        <button class="btn btn-info myModal tooltip"
+          title="Ceci est le modal. cliquez desus pour voir" type="button"
+          name="button" data-placement="top" data-togle="modal"
+          data-target="#myModal">Modal</button>
+        <div class="modal" id="myModal">
+          <span class="popin-dismiss">&times;</span>
+          <p>This is THE Modal ;) !</p>
+        </div>
+
+        <button class="btn btn-light tooltip" title="Un bouton blanc !" data-placement="bottom" type="button" name="button">Bouton</button>
+        <button class="btn btn-dark tooltip" title="Un bouton noir !" data-placement="left" type="button" name="button">Bouton
+        </button>
+        <button class="btn btn-link tooltip" title="Un bouton lien !" data-placement="right" type="button" name="button">Bouton</button>
+      </div>
+      <div class="row">
+        <div class="IMAGES col-lg-5">
+          <img class="img-responsive img-blur tooltip" title="image blur"
+          src="http://wac.2f9ad.chicdn.net/802F9AD/u/joyent.wme/public/wme/assets/ec050984-7b81-11e6-96e0-8905cd656caf.jpg?v=51" alt="toto">
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="IMAGES col-lg-5 hidden-sm-down">
+          <img class="img-responsive img-circle" src="http://wac.2f9ad.chicdn.net/802F9AD/u/joyent.wme/public/wme/assets/ec050984-7b81-11e6-96e0-8905cd656caf.jpg?v=51" alt="toto">
+        </div>
+        <div class="IMAGES col-lg-5">
+          <img class="img-responsive img-thumbail" src="http://wac.2f9ad.chicdn.net/802F9AD/u/joyent.wme/public/wme/assets/ec050984-7b81-11e6-96e0-8905cd656caf.jpg?v=51" alt="toto">
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="IMAGES col-lg-5 hidden-xs-down">
+          <img class="img-responsive img-rounded" src="http://wac.2f9ad.chicdn.net/802F9AD/u/joyent.wme/public/wme/assets/ec050984-7b81-11e6-96e0-8905cd656caf.jpg?v=51" alt="toto">
+        </div>
+      </div>
+      <div class="colors">
+        <p class="text-muted">Muted</p>
+        <p class="text-primary">Primary</p>
+        <p class="text-success">Success</p>
+        <p class="text-info">Info</p>
+        <p class="text-warning">Warning</p>
+        <p class="text-error">Error</p>
+        <br>
+        <p class="bg-muted">Muted</p>
+        <p class="bg-primary">Primary</p>
+        <p class="bg-success">Success</p>
+        <p class="bg-info">Info</p>
+        <p class="bg-warning">Warning</p>
+        <p class="bg-error">Error</p>
+      </div>
+      <div class="alert-success">
+        <h4>Success!</h4>
+        <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+      </div>
+      <div class="alert-info">
+        <h4>Info!</h4>
+        <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+      </div>
+      <div class="alert-warning">
+        <h4>Warning!</h4>
+        <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+      </div>
+      <div class="alert-danger">
+        <h4>Danger!</h4>
+        <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="onglets">
+          <ul class="tab-list">
+            <li class="active" data-target="tab-1"><a href="#tab-1">item 1</a></li>
+            <li data-target="tab-2"><a href="#tab-2">item 2</a></li>
+            <li data-target="tab-3"><a href="#tab-3">item 3</a></li>
+            <li data-target="tab-4"><a href="#tab-4">item 4</a></li>
+            <li data-target="tab-5"><a href="#tab-5">item 5</a></li>
+          </ul>
+        </div>
+        <div class="tab-content">
+          <div class="tab-pane active" id="tab-1">
+            <p>p dans la dive selectioner .tab-pane tab-1</p>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <p>p dans la dive selectioner .tab-pane tab-2</p>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <p>p dans la dive selectioner .tab-pane tab-3</p>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <p>p dans la dive selectioner .tab-pane tab-4</p>
+          </div>
+          <div class="tab-pane" id="tab-5">
+            <p>p dans la dive selectioner .tab-pane tab-5</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

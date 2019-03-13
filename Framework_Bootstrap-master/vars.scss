@@ -1,0 +1,23 @@
+$list 			: 			sm md lg xl offset;
+$sm 			: 			576px 767px 540px;
+$md 			: 			768px 991px 720px;
+$lg 			:			992px 1199px 960px;
+$xl 			: 			1200px 0px 1140px;
+$arr	 		:			$sm $md $lg $xl;
+
+$objects 		: 			btn text bg;
+
+// Colors
+$colors 		:			primary secondary success danger warning info light dark muted white;
+$ffColors 		:			#007bff #6c757d	#28a745 #dc3545 #ffc107 #17a2b8 #f8f9fa #343a40 #6c757d #fff; 
+$hoverColors	:			#0069d9 #5a6268 #218838 #c82333 #ffc107 #117a8b #e2e6ea #23272b #6c757d #e2e6ea;
+$alertColors	:			#004085 #e2e3e5 #d4edda #f8d7da	#fff3cd	#d1ecf1 #fefefe #d6d8d9;
+// Aligns
+$align 			: 			left right center none;
+
+// Vars
+$min-width 		: 			576px;
+$max-width 		: 			768px;
+$padding-default: 			15px;
+$border-radius 	:			4px;
+$box-shadow 	:			0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
